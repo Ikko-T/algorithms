@@ -9,7 +9,7 @@ int main(void)
 
   for (numOfEle = length; numOfEle >= 2; numOfEle--)
   {
-    for (int index = 0; index <= numOfEle; index++)
+    for (int index = 0; index < numOfEle - 1; index++)
     {
       if (array[index] > array[index + 1])
       {
