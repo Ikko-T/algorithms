@@ -2,27 +2,25 @@
 
 int main(void)
 {
-  int numOfEle, length;
-  int array[] = {25, 43, 34, 61, 85, 90, 37, 12};
+  int numbers[] = {23, 44, 34, 60, 85, 95, 37, 9};
+  int length = sizeof(numbers) / sizeof(numbers[0]);
 
-  length = sizeof(array) / sizeof(array[0]);
-
-  for (numOfEle = length; numOfEle >= 2; numOfEle--)
+  for (int lastIndex = length; lastIndex >= 2; lastIndex--)
   {
-    for (int index = 0; index < numOfEle - 1; index++)
+    for (int index = 0; index < lastIndex - 1; index++)
     {
-      if (array[index] > array[index + 1])
+      if (numbers[index] > numbers[index + 1])
       {
-        int temp = array[index];
-        array[index] = array[index + 1];
-        array[index + 1] = temp;
+        int aside = numbers[index];
+        numbers[index] = numbers[index + 1];
+        numbers[index + 1] = aside;
       }
     }
   }
 
   for (int index = 0; index < length; index++)
   {
-    printf("%d ", array[index]);
+    printf("%d ", numbers[index]);
   }
 
   printf("\n");
