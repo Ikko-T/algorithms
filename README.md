@@ -42,11 +42,12 @@ A programming algorithm is a procedure or formula used for solving a problem. It
 
 <!-- Algorithms -->
 
-## Algorithms in C language
+## Algorithms in C programming language
 
-### 1. Sort algorithms
+<p align="right"><a href="#top">back to top</a></p>
+<br>
 
-### Bubble Sort
+### 1. Bubble Sort
 
 Compile the source code file `bubble-sort.c` in your terminal
 
@@ -66,6 +67,27 @@ Source code: [program](https://github.com/Ikko-T/alogorithms/blob/main/bubble-so
 
 Reference(s):
 [Bubble Sort | C Programming Example - YouTube](https://www.youtube.com/watch?v=YqzNgaFQEh8)
+
+### 2. Insertion Sort
+
+Compile the source code file `insertionSort.c` in your terminal
+
+```sh
+gcc insertionSort.c
+```
+
+<!-- Note that to make a file executable -->
+
+GCC compiler gives the output file as a.out file by default, then execute the given file as below:
+
+```sh
+./a.out
+```
+
+Source code: [program](https://github.com/Ikko-T/alogorithms/blob/main/insertionSort.c)
+
+Reference(s):
+[Insertion Sort | C Program For Insertion Sort](https://www.geeksforgeeks.org/c-program-for-insertion-sort/)
 
 <p align="right"><a href="#top">back to top</a></p>
 <br>
