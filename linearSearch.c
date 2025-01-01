@@ -24,6 +24,8 @@ int main()
 
   (isFound) ? printf("Found it!\n") : printf("Not found...\n");
 
+  free(numbers);
+
   return 0;
 }
 
