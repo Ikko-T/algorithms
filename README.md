@@ -44,7 +44,6 @@ A programming algorithm is a procedure or formula used for solving a problem. It
 
 ## Algorithms in C programming language
 
-<p align="right"><a href="#top">back to top</a></p>
 <br>
 
 ### 1. Bubble Sort
@@ -68,6 +67,8 @@ Source code: [program](https://github.com/Ikko-T/alogorithms/blob/main/bubble-so
 Reference(s):
 [Bubble Sort | C Programming Example - YouTube](https://www.youtube.com/watch?v=YqzNgaFQEh8)
 
+<br>
+
 ### 2. Insertion Sort
 
 Compile the source code file `insertionSort.c` in your terminal
@@ -88,6 +89,29 @@ Source code: [program](https://github.com/Ikko-T/alogorithms/blob/main/insertion
 
 Reference(s):
 [Insertion Sort | C Program For Insertion Sort](https://www.geeksforgeeks.org/c-program-for-insertion-sort/)
+
+<br>
+
+### 3. Linear Search
+
+Compile the source code file `linearSearch.c` in your terminal
+
+```sh
+gcc linearSearch.c
+```
+
+<!-- Note that to make a file executable -->
+
+GCC compiler gives the output file as a.out file by default, then execute the given file as below:
+
+```sh
+./a.out
+```
+
+Source code: [program](https://github.com/Ikko-T/alogorithms/blob/main/linearSearch.c)
+
+Reference(s):
+[Linear Search | C Program For Linear Search](https://www.geeksforgeeks.org/linear-search/)
 
 <p align="right"><a href="#top">back to top</a></p>
 <br>
