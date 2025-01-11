@@ -113,6 +113,29 @@ Source code: [program](https://github.com/Ikko-T/alogorithms/blob/main/linearSea
 Reference(s):
 [Linear Search | C Program For Linear Search](https://www.geeksforgeeks.org/linear-search/)
 
+<br>
+
+### 4. Find Min. Max. Ave.
+
+Compile the source code file `findMinMaxAve.c` in your terminal
+
+```sh
+gcc findMinMaxAve.c
+```
+
+<!-- Note that to make a file executable -->
+
+GCC compiler gives the output file as a.out file by default, then execute the given file as below:
+
+```sh
+./a.out
+```
+
+Source code: [program](https://github.com/Ikko-T/alogorithms/blob/main/findMinMaxAve.c)
+
+Reference(s):
+[Min-Max-Average With taken from User.c | C Program For Min-Max-Ave](https://github.com/hrnoguz27/C-Programming/blob/master/Min-Max-Average%20With%20taken%20from%20User.c)
+
 <p align="right"><a href="#top">back to top</a></p>
 <br>
 
