@@ -44,6 +44,20 @@ A programming algorithm is a procedure or formula used for solving a problem. It
 
 ## Algorithms in C programming language
 
+## Installation
+
+### a). Clone the repo
+
+```
+git clone https://github.com/Ikko-T/algorithms.git
+```
+
+### b). Change the directory
+
+```
+cd algorithms
+```
+
 <br>
 
 ### 1. Bubble Sort
@@ -135,6 +149,27 @@ Source code: [program](https://github.com/Ikko-T/alogorithms/blob/main/findMinMa
 
 Reference(s):
 [Min-Max-Average With taken from User.c | C Program For Min-Max-Ave](https://github.com/hrnoguz27/C-Programming/blob/master/Min-Max-Average%20With%20taken%20from%20User.c)
+
+### 5. Binary Search
+
+Compile the source code file `binarySearch.c` in your terminal
+
+```sh
+gcc binarySearch.c
+```
+
+<!-- Note that to make a file executable -->
+
+GCC compiler gives the output file as a.out file by default, then execute the given file as below:
+
+```sh
+./a.out
+```
+
+Source code: [program](https://github.com/Ikko-T/algorithms/blob/main/binarySearch.c)
+
+Reference(s):
+[Binary Search Algorithm | C Program For Binary Search](https://www.geeksforgeeks.org/binary-search/)
 
 <p align="right"><a href="#top">back to top</a></p>
 <br>
